@@ -1,0 +1,53 @@
+@charset "utf-8";
+.headline {
+	background-color: rgba(255,255,255, 0.7);
+	 
+}
+
+.jumbotron {
+	background-color: none !important;
+}
+
+h1.headline {
+	color: green
+}
+
+body {
+  background:  url("images/530960451.jpg")no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color:  rgba(255,209,200,0.7);
+  background-blend-mode:overlay;
+//color-dodge	
+}
+
+
+
+.container.headline h1 {
+    font-weight: 700;
+    color: #46555F; 
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 #eee,3px 3px 0 #B7B6BB;
+    filter: dropshadow(color=#eee, offx=2, offy=2);
+   /* margin: 30px 0 0 auto; */
+   /* line-height: 1.2em; */
+    font-size: 40px; 
+}
+
+.container.headline h2 {
+   /* font-weight: 700; */
+    color: #46555F; 
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #eee,2px 2px 0 green;
+    filter: dropshadow(color=#eee, offx=2, offy=2);
+
+}
+
+/* GREG JARM 2017-04-28 added until v4 flexbox support arrives */
+.equal, .equal > div[class*='col-'] {  
+    display: flex;
+    flex:1 1 auto;
+    flex-wrap: wrap;
+}
